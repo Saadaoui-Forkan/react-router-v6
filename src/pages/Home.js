@@ -1,9 +1,8 @@
-import React from 'react'
-
-function Home() {
+const Home = () => {
   return (
-    <section className='section'>Home</section>
-  )
-}
-
-export default Home
+    <section className='section'>
+      <h2>home page</h2>
+    </section>
+  );
+};
+export default Home;

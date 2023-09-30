@@ -1,37 +1,37 @@
 const products = [
-    {
-      id: 'recZkNf2kwmdBcqd0',
-      name: 'accent chair',
-      image:
-        'https://dl.airtable.com/.attachmentThumbnails/e8bc3791196535af65f40e36993b9e1f/438bd160',
-    },
-    {
-      id: 'recEHmzvupvT8ZONH',
-      name: 'albany sectional',
-  
-      image:
-        'https://dl.airtable.com/.attachmentThumbnails/0be1af59cf889899b5c9abb1e4db38a4/d631ac52',
-    },
-    {
-      id: 'rec5NBwZ5zCD9nfF0',
-      name: 'albany table',
-  
-      image:
-        'https://dl.airtable.com/.attachmentThumbnails/7478483f40a2f56662a87b304bd4e104/707d397f',
-    },
-    {
-      id: 'recd1jIVIEChmiwhe',
-      name: 'armchair',
-  
-      image:
-        'https://dl.airtable.com/.attachmentThumbnails/530c07c5ade5acd9934c8dd334458b86/cf91397f',
-    },
-    {
-      id: 'recoM2MyHJGHLVi5l',
-      name: 'bar stool',
-      image:
-        'https://dl.airtable.com/.attachmentThumbnails/a6119fabf7256049cc0e8dbcdf536c9c/b0153f66',
-    },
-  ];
-  
-  export default products;
+  {
+    id: 'recZkNf2kwmdBcqd0',
+    name: 'accent chair',
+    image:
+      'https://www.dahuasecurity.com/asset/upload/uploads/image/20211227/IPC1.jpg',
+  },
+  {
+    id: 'recEHmzvupvT8ZONH',
+    name: 'albany sectional',
+
+    image:
+      'https://www.canon.com.au/-/media/images/canon/products/products-overview/dx-all-product-mirrorles-1200x1200.ashx?mw=600&hash=BD6C041D2C6A031FD670788F9D43BCED',
+  },
+  {
+    id: 'rec5NBwZ5zCD9nfF0',
+    name: 'albany table',
+
+    image:
+      'https://sellingmonks.com/wp-content/uploads/2020/12/fuji.jpeg',
+  },
+  {
+    id: 'recd1jIVIEChmiwhe',
+    name: 'armchair',
+
+    image:
+      'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
+  },
+  {
+    id: 'recoM2MyHJGHLVi5l',
+    name: 'bar stool',
+    image:
+      'https://www.fitbit.com/global/content/dam/fitbit/global/marketing-pages/quiz/desktop/fall2022-quiz-pathing-module-trackers.jpg',
+  },
+];
+
+export default products;
