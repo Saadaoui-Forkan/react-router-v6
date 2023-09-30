@@ -1,11 +1,15 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 const About = () => {
+  const navigate = useNavigate()
+  const navigateOnClick = () => {
+    navigate('/')
+  }
   return (
     <section className='section'>
       <h2>About</h2>
-      <Link to='/' className='btn'>
+      <button onClick={navigateOnClick}>
         Back Home
-      </Link>
+      </button>
     </section>
   );
 };

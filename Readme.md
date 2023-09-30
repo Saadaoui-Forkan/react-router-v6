@@ -8,7 +8,7 @@
 ## Active Link
 `
     import { NavLink } from 'react-router-dom';
-
+`
     <nav className='navbar'>
     <NavLink
         to='/about'
@@ -19,4 +19,14 @@
         Home
     </NavLink>
     </nav>;
+
+## Navigation
+`
+ import { useNavigate } from 'react-router-dom'
+
+ const navigate = useNavigate()
+
+ const navigateOnClick = () => {
+    navigate("/")
+ }
 `
