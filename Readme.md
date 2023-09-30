@@ -2,12 +2,13 @@
 
 ## Installing
 
-`    npm install react-router-dom@6`
+`npm install react-router-dom@6`
 
 ## Active Link
+```
+import { NavLink } from 'react-router-dom'
 
-`    import { NavLink } from 'react-router-dom';`
-`   <nav className='navbar'>
+    <nav className='navbar'>
         <NavLink
             to='/about'
             style={({ isActive }) => {
@@ -16,11 +17,12 @@
         >
             Home
         </NavLink>
-    </nav>;`
+    </nav>;
+```
 
 ## Navigation
 
-`
+```
 import { useNavigate } from 'react-router-dom'
 
 const navigate = useNavigate()
@@ -28,11 +30,11 @@ const navigate = useNavigate()
 const navigateOnClick = () => {
 navigate("/")
 }
-`
+```
 
 ## Nested Route
 
-`    function App() {
+```    function App() {
         return (
             <BrowserRouter>
                 <Routes>
@@ -44,4 +46,5 @@ navigate("/")
                 </Routes>
             </BrowserRouter>
         );
-    }`
+    }
+```
